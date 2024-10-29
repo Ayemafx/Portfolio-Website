@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "deploy": "vercel --prod",
-     "postinstall": "npx update-browserslist-db@latest --yes"
-}
+    "postinstall": "npx update-browserslist-db@latest --yes"
   },
   "dependencies": {
     "@react-three/drei": "^9.105.4",
