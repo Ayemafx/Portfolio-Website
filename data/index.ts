@@ -111,19 +111,19 @@ export const testimonials = [
     quote: `Ayema has shown strong performance in designing and optimizing digital experiences. She has created user-friendly interfaces, improving user experience and positively impacting our digital presence. Her logo and identity work contributed effectively to our branding. Ayema’s collaboration with cross-functional teams has supported successful project completion. She is a skilled and dependable designer, recommended for any project or senior UI/UX role.`,
     name: "Adam Oliver Kollar",
     title: "CEO Of Grew Studio",
-    image: "./imageR.png",
+    image: "/imageR.png",
   },
   {
     quote: `Ayema did a great job. She got it over in half the time I was expecting. I asked about a small revisions and it was completed the same day. The quality and communication was all 5 star. I will use again!`,
     name: "Jason Cossetti",
     title: "CEO of Colfax Group Real Estate Services",
-    image: "./imageR2.png",
+    image: "/imageR2.png",
   },
   {
     quote: `My team and I worked with Ayema on our website, and her communication was excellent from start to finish. She was attentive, quick to respond, and always kept us in the loop. Her commitment to delivering exactly what we needed was evident in every step of the process. She’s passionate about her work and dedicated to creating a final product that meets expectations. I highly recommend Ayema for anyone looking for a reliable and talented designer!`,
     name: "Sporisi Alexandru",
     title: "CEO of Ardonyx",
-    image: "./imageR3.png",
+    image: "/imageR3.png",
   },
 ];
 

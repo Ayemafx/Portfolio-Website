@@ -9,14 +9,18 @@ const FoodOtherScreens = () => {
         <IntroText heading={"Other Screens"} paraText={""} />
         <div className="flex flex-wrap gap-y-10 justify-between">
           {Food2GoOtherScreens.map((item, index) => (
-            <div className={`flex flex-wrap space-y-10 w-full ${index > 2 && 'md:w-[48%] '}`}>
+            <div
+              className={`flex flex-wrap space-y-10 w-full ${
+                index > 2 && "md:w-[48%] "
+              }`}
+            >
               <p className="w-full bg-[#B9EE19] px-6 py-2 text-black text-lg ">
                 {item.title}
               </p>
               <div className="flex flex-wrap justify-center md:justify-start gap-8">
                 {item.screens.map((screen) => (
                   <div className="max-w-[250px]">
-                    <img src={screen}/>
+                    <img  alt="img" src={screen} />
                   </div>
                 ))}
               </div>

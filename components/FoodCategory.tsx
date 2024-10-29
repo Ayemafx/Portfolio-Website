@@ -36,9 +36,10 @@ const FoodCategory = () => {
               </p>
             </motion.div>
 
-            {/* Category image */}
+            {/* Category img */}
             <div className="max-w-[400px]">
               <motion.img
+                alt="img"
                 src="./7.2 Category detail.png"
                 initial={{ opacity: 0 }} // Start hidden and rotated
                 animate={isInView ? { opacity: 1 } : {}} // Rotate back to 0 when in view
@@ -59,7 +60,7 @@ const FoodCategory = () => {
             </motion.div>
           </div>
 
-          {/* Pizza image rotating in */}
+          {/* Pizza img rotating in */}
           <motion.div
             initial={{ opacity: 0, rotate: 180, x: 100 }} // Start hidden and rotated
             animate={isInView ? { opacity: 1, rotate: 0, x: 0 } : {}} // Rotate back to 0 when in view

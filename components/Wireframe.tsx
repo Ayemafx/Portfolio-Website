@@ -15,37 +15,37 @@ const Wireframe = () => {
         />
         <div className="container mx-auto p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 relative">
           <div className="staggered-item max-w-[200]">
-            <img src={"./Login Wireframe.png"} />
+            <img alt="altImg" src={"./Login Wireframe.png"} />
           </div>
           <div className="staggered-item max-w-[200]">
-            <img src={"./Signup Wireframe.png"} />
+            <img alt="altImg" src={"./Signup Wireframe.png"} />
           </div>
           <div className="staggered-item max-w-[200]">
-            <img src={"./6.0 Location.png"} />
+            <img alt="altImg" src={"./6.0 Location.png"} />
           </div>
           <div className="staggered-item max-w-[200]">
-            <img src={"./6.1 Homescreen.png"} />
+            <img alt="altImg" src={"./6.1 Homescreen.png"} />
           </div>
           <div className="staggered-item max-w-[200]">
-            <img src={"./6.1.1 Cart.png"} />
+            <img alt="altImg" src={"./6.1.1 Cart.png"} />
           </div>
           <div className="staggered-item max-w-[200]">
-            <img src={"./6.1.2 Cart.png"} />
+            <img alt="altImg" src={"./6.1.2 Cart.png"} />
           </div>
           <div className="staggered-item max-w-[200]">
-            <img src={"./6.1.3 Checkout.png"} />
+            <img alt="altImg" src={"./6.1.3 Checkout.png"} />
           </div>
           <div className="staggered-item max-w-[200]">
-            <img src={"./6.1.4 Checkout.png"} />
+            <img alt="altImg" src={"./6.1.4 Checkout.png"} />
           </div>
           <div className="staggered-item max-w-[200]">
-            <img src={"./6.1.4 Checkout.png"} />
+            <img alt="altImg" src={"./6.1.4 Checkout.png"} />
           </div>
           <div className="staggered-item max-w-[200]">
-            <img src={"./6.1.8 Checkout.png"} />
+            <img alt="altImg" src={"./6.1.8 Checkout.png"} />
           </div>
           <div className="staggered-item max-w-[200]">
-            <img src={"./6.1.9 Checkout.png"} />
+            <img alt="altImg" src={"./6.1.9 Checkout.png"} />
           </div>
         </div>
       </div>

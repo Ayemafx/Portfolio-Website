@@ -174,18 +174,21 @@ const Stitch = () => {
       <section className="w-full bg-[#563285] h-full md:h-screen p-6 md:p-12 md:py-4  space-y-8  relative">
         <div className="absolute bottom-0 right-0 z-10 h-full w-full">
           <img
+            alt="altImg"
             src="./Lovepik_com-401347522-purple-starlight-effect 1@2x.png"
             className="w-full object-cover h-[600px] md:h-full"
           />
         </div>
         <div className="absolute bottom-0 right-0 z-0 h-full w-full opacity-15">
           <img
+            alt="altImg"
             src="./heroImg.png"
             className="w-full object-cover h-[600px] md:h-full"
           />
         </div>
         <div className="absolute bottom-0 right-0 z-0 h-full w-full">
           <img
+            alt="altImg"
             src="./Vector 1 (3).png"
             className="w-full object-cover h-[600px] md:h-full"
           />
@@ -196,7 +199,12 @@ const Stitch = () => {
             className="w-28 lg:w-36 hidden md:block absolute top-0 left-0"
             initial={{ y: -100, opacity: 0 }} // Start position (above the view)
             animate={{ y: 0, opacity: 1 }} // End position (at the top)
-            transition={{ type: "spring", stiffness: 50, damping: 20, delay: 0.8 }} // Animation type and speed
+            transition={{
+              type: "spring",
+              stiffness: 50,
+              damping: 20,
+              delay: 0.8,
+            }} // Animation type and speed
             alt="Logo"
           />
           <div className="h-[40%] md:h-auto flex flex-col md:flex-row md:items-start md:justify-center  items-center text-center gap-8 xl:gap-28 w-full">
@@ -205,7 +213,12 @@ const Stitch = () => {
               className="w-28 lg:w-36 md:hidden "
               initial={{ y: -100, opacity: 0 }} // Start position (above the view)
               animate={{ y: 0, opacity: 1 }} // End position (at the top)
-              transition={{ type: "spring", stiffness: 50, damping: 20, delay: 1 }} // Animation type and speed
+              transition={{
+                type: "spring",
+                stiffness: 50,
+                damping: 20,
+                delay: 1,
+              }} // Animation type and speed
               alt="Logo"
             />
             <div className="md:w-full space-y-8 px-4  xl:w-[900px] xl:mx-auto  ">
@@ -229,7 +242,12 @@ const Stitch = () => {
                 className="w-80 lg:w-[500px] absolute bottom-0 -left-16"
                 initial={{ x: -200, opacity: 0 }} // Start position (left of the view)
                 animate={{ x: 0, opacity: 1 }} // End position (from the left to original position)
-                transition={{ type: "spring", stiffness: 60, damping: 20, delay: 1 }} // Spring animation settings
+                transition={{
+                  type: "spring",
+                  stiffness: 60,
+                  damping: 20,
+                  delay: 1,
+                }} // Spring animation settings
                 alt="Animated Image"
               />
             </div>
@@ -239,7 +257,12 @@ const Stitch = () => {
                 className="absolute -bottom-10 -right-20 w-[480px] lg:w-[700px] xl:w-[800px]"
                 initial={{ x: 100, opacity: 0 }} // Start off the screen to the left
                 animate={{ x: 0, opacity: 1 }} // End at the original position
-                transition={{ type: "spring", stiffness: 70, damping: 20, delay: 1 }} // Spring animation
+                transition={{
+                  type: "spring",
+                  stiffness: 70,
+                  damping: 20,
+                  delay: 1,
+                }} // Spring animation
                 alt="iPhone 15 Pro"
               />
             </div>
@@ -250,7 +273,12 @@ const Stitch = () => {
               className="w-56"
               initial={{ y: 200, opacity: 0 }} // Start position (off-screen at the bottom)
               animate={{ y: 0, opacity: 1 }} // End position (at the original position)
-              transition={{ type: "spring", stiffness: 60, damping: 20, delay: 1 }} // Spring animation
+              transition={{
+                type: "spring",
+                stiffness: 60,
+                damping: 20,
+                delay: 1,
+              }} // Spring animation
               alt="iPhone 13"
             />
           </div>
@@ -263,6 +291,7 @@ const Stitch = () => {
       >
         <div className="absolute bottom-0 right-0 z-0 w-full">
           <img
+            alt="altImg"
             src="./Vector 1 (2).png"
             className="w-full object-cover h-[600px] md:h-full"
           />
@@ -306,10 +335,10 @@ const Stitch = () => {
               </div>
             </div>
             <div className="absolute h-[330px] top-[50%]  z-10 lg:hidden">
-              <img src="./Arrow 4.png" />
+              <img alt="altImg" src="./Arrow 4.png" />
             </div>
             <div className="absolute w-[250px] xl:w-[330px] bottom-0 left-[50%] z-10 lg:block hidden">
-              <img src="./Arrow 2.png" />
+              <img alt="altImg" src="./Arrow 2.png" />
             </div>
           </div>
           <div className="relative">
@@ -336,10 +365,10 @@ const Stitch = () => {
               </div>
             </div>
             <div className="absolute h-[330px] top-[50%]  z-10 lg:hidden">
-              <img src="./Arrow 4.png" />
+              <img alt="altImg" src="./Arrow 4.png" />
             </div>
             <div className="absolute w-[250px] xl:w-[330px] bottom-0 left-[50%] z-10 lg:block hidden">
-              <img src="./Arrow 2.png" />
+              <img alt="altImg" src="./Arrow 2.png" />
             </div>
           </div>
           <div className="relative">
@@ -366,10 +395,10 @@ const Stitch = () => {
               </div>
             </div>
             <div className="absolute h-[330px] top-[50%]  z-10 lg:hidden">
-              <img src="./Arrow 4.png" />
+              <img alt="altImg" src="./Arrow 4.png" />
             </div>
             <div className="absolute w-[250px] xl:w-[330px] bottom-0 left-[50%] z-10 lg:block hidden">
-              <img src="./Arrow 2.png" />
+              <img alt="altImg" src="./Arrow 2.png" />
             </div>
           </div>
           <div className="relative">
@@ -491,12 +520,14 @@ const Stitch = () => {
       <section className="w-full bg-[#EFEBF3]  h-full p-6 md:p-12 xl:p-24 space-y-8 md:space-y-20 relative">
         <div className="absolute top-0 left-0 z-0 w-full ">
           <img
+            alt="altImg"
             src="./Vector 1.png"
             className="w-full object-cover h-96 md:h-full"
           />
         </div>
         <div className="absolute top-1/2 left-0 z-0 -translate-y-[50%] w-full">
           <img
+            alt="altImg"
             src="./image 5 (1).png"
             className="w-full object-cover h-96 md:h-full"
           />
@@ -506,15 +537,23 @@ const Stitch = () => {
             <h3 className="text-2xl md:text-3xl xl:text-5xl font-semibold text-black ml-2 md:mt-10 self-start">
               Components
             </h3>
-            <img src="./Group 151.png" className="w-full" />
+            <img alt="altImg" src="./Group 151.png" className="w-full" />
           </div>
           <div className=" md:w-1/3">
-            <img src="./Group 148.png" className="w-full" />
-            <img src="./Component 11.png" className="w-full hidden md:block" />
+            <img alt="altImg" src="./Group 148.png" className="w-full" />
+            <img
+              alt="altImg"
+              src="./Component 11.png"
+              className="w-full hidden md:block"
+            />
           </div>
           <div className="md:self-end md:w-1/3">
-            <img src="./Group 150.png" className="w-full" />
-            <img src="./Component 11.png" className="w-full md:hidden" />
+            <img alt="altImg" src="./Group 150.png" className="w-full" />
+            <img
+              alt="altImg"
+              src="./Component 11.png"
+              className="w-full md:hidden"
+            />
           </div>
         </div>
       </section>
@@ -522,6 +561,7 @@ const Stitch = () => {
       <section className="w-full bg-[#1A1D2B] h-full p-6 md:p-12 xl:p-24 space-y-8 md:space-y-20 relative">
         <div className="absolute top-0 left-0 z-0 w-full">
           <img
+            alt="altImg"
             src="./Vector 2 (1).png"
             className="w-full object-cover h-[600px] md:h-full"
           />
@@ -549,6 +589,7 @@ const Stitch = () => {
             </h3>
             <div className="md:max-w-[400px] lg:max-w-[600px] w-full relative">
               <img
+                alt="altImg"
                 src="./Frame 1000004204.png"
                 className="object-cover w-full"
               />
@@ -558,7 +599,11 @@ const Stitch = () => {
                 initial={{ x: 100, opacity: 0 }} // Start 100px from right
                 animate={firstImageControls} // Animate from right
               >
-                <img src="./image 7.png" className="h-full object-cover" />
+                <img
+                  alt="altImg"
+                  src="./image 7.png"
+                  className="h-full object-cover"
+                />
               </motion.div>
             </div>
           </div>
@@ -569,6 +614,7 @@ const Stitch = () => {
               Inter
             </h3>
             <motion.img
+              alt="altImg"
               ref={secondImageRef}
               src="./image-removebg-preview (6) 1.png"
               className="hidden md:block absolute bottom-6 -left-20 lg:-left-32 w-[400px] lg:w-[600px]"
@@ -577,6 +623,7 @@ const Stitch = () => {
             />
             <div className="md:max-w-[400px] lg:max-w-[600px]">
               <img
+                alt="altImg"
                 src="./Frame 1000004205.png"
                 className="object-cover w-full"
               />
@@ -592,26 +639,42 @@ const Stitch = () => {
           <div className="w-full flex flex-wrap">
             <div className="flex flex-col md:flex-row w-full">
               <img
+                alt="altImg"
                 src="./Frame 1000004232 (2).png"
                 className="md:w-1/3 object-cover"
               />
               <img
+                alt="altImg"
                 src="./Frame 1000004442.png"
                 className="md:w-1/3 object-cover"
               />
               <img
+                alt="altImg"
                 src="./Frame 1000004443.png"
                 className="md:w-1/3 object-cover"
               />
             </div>
-            <img src="./Frame 1000004444.png" className="md:hidden w-full" />
-            <img src="./Frame 1000004445.png" className="md:hidden w-full" />
+            <img
+              alt="altImg"
+              src="./Frame 1000004444.png"
+              className="md:hidden w-full"
+            />
+            <img
+              alt="altImg"
+              src="./Frame 1000004445.png"
+              className="md:hidden w-full"
+            />
             <div className="w-full md:flex flex-row hidden">
               <img
+                alt="altImg"
                 src="./Frame 1000004451.png"
                 className="w-1/2 object-cover"
               />
-              <img src="./Group 155.png" className="w-1/2 object-cover" />
+              <img
+                alt="altImg"
+                src="./Group 155.png"
+                className="w-1/2 object-cover"
+              />
             </div>
           </div>
         </div>
@@ -619,7 +682,11 @@ const Stitch = () => {
       {/* Grid */}
       <section className="w-full h-full md:space-y-12 flex flex-row relative ">
         <div className="hidden md:block relative z-0 h-full w-full">
-          <img src="./Frame 1000004207 (1).png" className="w-full " />
+          <img
+            alt="altImg"
+            src="./Frame 1000004207 (1).png"
+            className="w-full "
+          />
         </div>
         <div className="bg-[#563285] relative space-y-8 flex flex-col items-center justify-center pt-10  w-full md:hidden">
           <div className="p-6 md:p-12 xl:p-24 flex flex-col items-start gap-6 text-white max-w-sm">
@@ -633,10 +700,15 @@ const Stitch = () => {
             </p>
           </div>
           <img
+            alt="altImg"
             src="./Frame 1000004448.png"
             className="w-full !pr-0 md:hidden"
           />
-          <img src="./Frame 1000004447.png" className="w-60 md:hidden" />
+          <img
+            alt="altImg"
+            src="./Frame 1000004447.png"
+            className="w-60 md:hidden"
+          />
         </div>
         <div className="hidden md:block absolute top-1/2 -translate-y-1/2">
           <div className="p-6 pt-0 xl:p-20 lg:p-10 lg:pt-0 xl:pt-0 flex flex-col items-start gap-6 text-white max-w-[200px] lg:max-w-xs xl:max-w-md ">
@@ -666,7 +738,11 @@ const Stitch = () => {
       {/* Low-Fidelity Wireframes */}
       <section className="w-full bg-[#1A1D2B] h-full p-6 md:p-12 xl:p-24 space-y-8 md:space-y-12 relative">
         <div className="absolute top-[50%] -translate-y-[50%] left-0 z-0 w-full">
-          <img src="./Vector 3.png" className="w-full object-cover h-full" />
+          <img
+            alt="altImg"
+            src="./Vector 3.png"
+            className="w-full object-cover h-full"
+          />
         </div>
 
         {/* Title and Description */}
@@ -685,7 +761,7 @@ const Stitch = () => {
         {/* Wireframes */}
         <div className="relative z-10">
           <div className="w-full relative">
-            <img src="./Rectangle 248.png" className="w-full" />
+            <img alt="altImg" src="./Rectangle 248.png" className="w-full" />
 
             {/* Animated Image */}
             <motion.div
@@ -694,7 +770,7 @@ const Stitch = () => {
               initial={{ x: 100, opacity: 0 }} // Start 100px to the right
               animate={animatedImageControls} // Trigger animation on scroll
             >
-              <img src="./image 5.png" className="w-full" />
+              <img alt="altImg" src="./image 5.png" className="w-full" />
             </motion.div>
           </div>
 
@@ -704,8 +780,8 @@ const Stitch = () => {
             <img src="./Rectangle 250.png" className="w-[50%]" />
           </div>
           <div className="flex flex-row">
-            <img src="./Rectangle 251.png" className="w-[50%]" />
-            <img src="./Rectangle 252.png" className="w-[50%]" />
+            <img alt="altImg" src="./Rectangle 251.png" className="w-[50%]" />
+            <img alt="altImg" src="./Rectangle 252.png" className="w-[50%]" />
           </div>
         </div>
       </section>
@@ -716,28 +792,28 @@ const Stitch = () => {
         </h2>
         <div className="container p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 relative">
           <div className="max-w-80">
-            <img src={"./iPhone 13 & 14 - 19.png"} />
+            <img alt="altImg" src={"./iPhone 13 & 14 - 19.png"} />
           </div>
           <div className="lg:mt-12 max-w-80">
-            <img src={"./iPhone 13 & 14 - 14.png"} />
+            <img alt="altImg" src={"./iPhone 13 & 14 - 14.png"} />
           </div>
           <div className="max-w-80">
-            <img src={"./iPhone 13 & 14 - 20.png"} />
+            <img alt="altImg" src={"./iPhone 13 & 14 - 20.png"} />
           </div>
           <div className="lg:mt-12 max-w-80">
-            <img src={"./iPhone 13 & 14 - 18.png"} />
+            <img alt="altImg" src={"./iPhone 13 & 14 - 18.png"} />
           </div>
           <div className="lg:-mt-12 max-w-80">
-            <img src={"./iPhone 13 & 14 - 21.png"} />
+            <img alt="altImg" src={"./iPhone 13 & 14 - 21.png"} />
           </div>
           <div className=" max-w-80">
-            <img src={"./iPhone 13 & 14 - 22.png"} />
+            <img alt="altImg" src={"./iPhone 13 & 14 - 22.png"} />
           </div>
           <div className="max-w-80 lg:-mt-12">
-            <img src={"./iPhone 13 & 14 - 16.png"} />
+            <img alt="altImg" src={"./iPhone 13 & 14 - 16.png"} />
           </div>
           <div className="max-w-80">
-            <img src={"./iPhone 13 & 14 - 15.png"} className=" " />
+            <img alt="altImg" src={"./iPhone 13 & 14 - 15.png"} className=" " />
           </div>
         </div>
       </section>
@@ -745,6 +821,7 @@ const Stitch = () => {
       <section className="w-full py-8 bg-[#1A1D2B]  relative overflow-hidden h-screen md:h-full ">
         <div className="absolute bottom-0 left-0 z-0 w-full">
           <img
+            alt="altImg"
             src="./image-removebg-preview (10) 1.png"
             className="object-cover w-full h-[300px] md:h-full "
           />
@@ -760,7 +837,11 @@ const Stitch = () => {
             </p>
           </div>
           <div className="w-full lg:mt-80">
-            <img src="./Frame 1000004214.png" className="w-full  " />
+            <img
+              alt="altImg"
+              src="./Frame 1000004214.png"
+              className="w-full  "
+            />
           </div>
         </div>
       </section>
@@ -772,10 +853,12 @@ const Stitch = () => {
           </p>
           <div className="relative w-full">
             <img
+              alt="altImg"
               src="./Frame 1000004213.png"
               className="w-full h-[350px] md:h-full  object-cover z-10"
             />
             <img
+              alt="altImg"
               src="./image-removebg-preview (9) 1.png"
               className="absolute -bottom-10 -left-16 sm:left-12 md:left-4 md:-bottom-16 w-52 md:w-72 lg:w-96 lg:left-6 lg:-bottom-20 xl:w-[500px] xl:-bottom-24  z-20"
             />
@@ -786,6 +869,7 @@ const Stitch = () => {
       <section className="w-full py-8 bg-[#1A1D2B] relative  ">
         <div className="absolute top-0 left-0 z-0 w-full ">
           <img
+            alt="altImg"
             src="./Vector 2.png"
             className="object-cover md:h-full h-[600px] w-full"
           />
@@ -799,16 +883,23 @@ const Stitch = () => {
               Login / Sign Up
             </p>
             <div className="flex flex-wrap h-full gap-4 md:gap-8">
-              <img src="./logo screen.png" className="object-cover max-w-72 " />
               <img
+                alt="altImg"
+                src="./logo screen.png"
+                className="object-cover max-w-72 "
+              />
+              <img
+                alt="altImg"
                 src="./welcome screen.png"
                 className="object-cover max-w-72 "
               />
               <img
+                alt="altImg"
                 src="./logo screen (1).png"
                 className="object-cover max-w-72 "
               />
               <img
+                alt="altImg"
                 src="./logo screen (2).png"
                 className="object-cover max-w-72 "
               />
@@ -820,14 +911,17 @@ const Stitch = () => {
             </p>
             <div className="flex flex-wrap h-full gap-4 md:gap-8 mx-auto">
               <img
+                alt="altImg"
                 src="./Frame 23.png"
                 className="object-cover max-w-80 -ml-8"
               />
               <img
+                alt="altImg"
                 src="./logo screen (4).png"
                 className="object-cover max-w-72 "
               />
               <img
+                alt="altImg"
                 src="./logo screen (3).png"
                 className="object-cover max-w-72 "
               />
@@ -840,6 +934,7 @@ const Stitch = () => {
               </p>
               <div className="flex flex-wrap h-full gap-4 md:gap-8 mx-auto -ml-8">
                 <img
+                  alt="altImg"
                   src="./main screens.png"
                   className="object-cover max-w-80"
                 />
@@ -851,6 +946,7 @@ const Stitch = () => {
               </p>
               <div className="flex flex-wrap h-full gap-4 md:gap-8 mx-auto">
                 <img
+                  alt="altImg"
                   src="./main screens (1).png"
                   className="object-cover max-w-80 -ml-8 "
                 />
@@ -862,6 +958,7 @@ const Stitch = () => {
               </p>
               <div className="flex flex-wrap h-full gap-4 md:gap-8 mx-auto">
                 <img
+                  alt="altImg"
                   src="./main screens (2).png"
                   className="object-cover max-w-80 -ml-8 "
                 />
@@ -875,6 +972,7 @@ const Stitch = () => {
               </p>
               <div className="flex flex-wrap h-full gap-4 md:gap-8 mx-auto">
                 <img
+                  alt="altImg"
                   src="./main screens (3).png"
                   className="object-cover -ml-8 max-w-80"
                 />
@@ -886,6 +984,7 @@ const Stitch = () => {
               </p>
               <div className="flex flex-wrap h-full gap-4 md:gap-8 mx-auto">
                 <img
+                  alt="altImg"
                   src="./main screens (4).png"
                   className="object-cover max-w-80 -ml-8"
                 />
@@ -897,6 +996,7 @@ const Stitch = () => {
       {/* <StitchFooter /> */}
       <footer className="relative  w-full bg-black border border-black-100">
         <img
+          alt="altImg"
           src="./iPhone 15 Pro (1).png"
           className="object-cover h-[400px] md:h-full w-full"
         />
@@ -915,7 +1015,7 @@ const Stitch = () => {
           </Link>
         </div>
         <div className="hidden md:block md:absolute bottom-0 -right-0 w-64 lg:w-80 xl:w-96">
-          <img src="./image 8.png" className="w-full" />
+          <img alt="altImg" src="./image 8.png" className="w-full" />
         </div>
       </footer>
     </div>

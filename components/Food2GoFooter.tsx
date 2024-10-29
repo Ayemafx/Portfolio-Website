@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import React from "react";
 
@@ -5,10 +6,20 @@ const Food2GoFooter = () => {
   return (
     <footer className="relative w-full">
       <div className="hidden md:block object-fill w-full">
-        <img src="./foodFooter.png" className="w-full" />
+        <img
+          
+          alt="img"
+          src="./foodFooter.png"
+          className="w-full"
+        />
       </div>
       <div className="md:hidden object-fill w-full">
-        <img src="./footerSM.png" className="w-full" />
+        <img
+          
+          alt="img"
+          src="./footerSM.png"
+          className="w-full"
+        />
       </div>
       <div className="my-10 md:absolute top-1/3 left-10 lg:left-20 flex flex-col items-center justify-center gap-4  ">
         <h1 className="font-bold xl:text-7xl text-5xl leading-[50px] lg:leading-[75px] w-[250px] xl:w-[400px] text-center ">
@@ -23,7 +34,7 @@ const Food2GoFooter = () => {
         </a>
       </div>
       <div className="hidden md:block absolute bottom-0 right-0 max-w-[40%] ">
-        <img src="./removebg-preview 1.png" />
+        <img  alt="img" src="./removebg-preview 1.png" />
       </div>
     </footer>
   );

@@ -62,8 +62,12 @@ const FoodGrid = () => {
             <p className="text-2xl font-medium">Around 60 screens in Figma</p>
           </motion.div>
 
-          {/* Center image */}
-          <img src="./foodGrid.png" className="w-96 xl:w-[450px] mx-auto" />
+          {/* Center img */}
+          <img
+            alt="altImg"
+            src="./foodGrid.png"
+            className="w-96 xl:w-[450px] mx-auto"
+          />
 
           {/* Right side div (Count) */}
           <motion.div
