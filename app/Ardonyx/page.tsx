@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const page = () => {
@@ -19,13 +18,11 @@ const page = () => {
         ></video>
       </div>
       <img
-        
         alt="img"
         src="./Business_Cards_On_Concrete_Mockup_1 1.png"
         className="w-full object-cover h-[400px] md:h-full"
       />
       <img
-        
         alt="img"
         src="./mock3 1.png"
         className="object-cover h-[400px] md:h-full w-full"
@@ -33,7 +30,6 @@ const page = () => {
       {/* Done */}
       <div className="w-full relative md:h-full h-screen overflow-hidden">
         <img
-          
           alt="img"
           src="./papers.co-ar20-red-purple-river-illustration-art-anime-26-wallpaper 1.png"
           className="w-full object-cover h-full"
@@ -56,7 +52,6 @@ const page = () => {
       {/* Done */}
       <div className="w-full h-screen md:h-full relative ">
         <img
-          
           alt="img"
           src="./0914 (1) 1.png"
           className="w-full h-full object-cover"
@@ -65,8 +60,8 @@ const page = () => {
           <p className="font-semibold md:font-bold text-lg">BRAND STORY</p>
           <p className="font-extralight">
             We imagine the vibrant world of our customers. For Ardonyx, anime is
-            not just about fandom or collectibles—it's about reliving the magic
-            that shaped who we are. It’s the connection to characters and
+            not just about fandom or collectibles—it&apos;s about reliving the
+            magic that shaped who we are. It’s the connection to characters and
             stories that sparked adventure, imagination, and creativity.
           </p>
           <p className="font-extralight">
@@ -107,31 +102,20 @@ const page = () => {
       {/* Done */}
       <div className="w-full">
         <img
-          
           alt="img"
           src="./Group 64.png"
           className="w-full md:block hidden"
         />
         <img
-          
           alt="img"
           src="./Group 1000004448.png"
           className="w-full md:hidden"
         />
-        <img
-          
-          alt="img"
-          src="./Frame 43.png"
-          className="w-full md:hidden"
-        />
+        <img alt="img" src="./Frame 43.png" className="w-full md:hidden" />
       </div>
       {/* Done */}
       <div className="w-full relative hidden md:block">
-        <img
-          alt="img"
-          src="./Frame 1000004224.png"
-          className="w-full"
-        />
+        <img alt="img" src="./Frame 1000004224.png" className="w-full" />
         <div className="flex flex-col m-8 gap-2 mt-20 md:absolute top-0 xl:ml-40 xl:mt-40">
           <p className="font-extralight md:text-xl lg:text-2xl">TAGLINE</p>
           <p className="font-bold md:text-2xl lg:text-3xl">
@@ -139,10 +123,10 @@ const page = () => {
           </p>
         </div>
         <p className="m-8 mb-20 md:mr-0 md:absolute right-0 md:top-28 md:w-96 md:text-xs lg:text-sm lg:w-[500px] lg:top-44 xl:text-lg xl:w-[700px] xl:top-64">
-          We chose this tagline to cleverly play with words. Our products won't
-          be just basic, run-of-the-mill items. At Ardonyx, we offer more than
-          that—we go beyond the basics to provide something truly special for
-          anime fans.
+          We chose this tagline to cleverly play with words. Our products
+          won&apos;t be just basic, run-of-the-mill items. At Ardonyx, we offer
+          more than that—we go beyond the basics to provide something truly
+          special for anime fans.
         </p>
       </div>
       {/* Done */}
@@ -152,27 +136,21 @@ const page = () => {
           <p className="font-bold text-2xl">“Beyond Basic Picks”</p>
           <p className="font-extralight text-lg mt-4 ">
             We chose this tagline to cleverly play with words. Our products
-            won't be just basic, run-of-the-mill items. At Ardonyx, we offer
-            more than that—we go beyond the basics to provide something truly
-            special for anime fans.
+            won&apos;t be just basic, run-of-the-mill items. At Ardonyx, we
+            offer more than that—we go beyond the basics to provide something
+            truly special for anime fans.
           </p>
         </div>
         <div className="relative -mt-10 ">
           <img
-            
             alt="altImg"
             src="./birds.png"
             className="w-full absolute -left-10 top-20"
           />
-          <img
-            
-            alt="img"
-            src="./Mask group.png"
-            className="w-full h-screen"
-          />
+          <img alt="img" src="./Mask group.png" className="w-full h-screen" />
         </div>
       </div>
-      <img      
+      <img
         alt="img"
         src="./Cropped_T-Shirt_Mockup2 1.png"
         className="object-cover h-[400px] md:h-full w-full"
@@ -181,29 +159,17 @@ const page = () => {
       <div className="flex flex-col m-10 md:mx-20 my-28 ">
         <p className="font-semibold text-2xl">TYPOGRAPHY</p>
         <div className="flex flex-row flex-wrap items-center justify-center lg:gap-x-60 lg:justify-start">
+          <img alt="img" src="./pattern1.png" className="w-[300px]" />
           <img
-            
-            alt="img"
-            src="./pattern1.png"
-            className="w-[300px]"
-          />
-          <img
-            
             alt="img"
             src="./Title1.png"
             className="w-80 md:w-[400px] lg:w-[550px]"
           />
         </div>
         <div className="flex flex-row flex-wrap items-center justify-center lg:justify-start gap-16 lg:gap-x-60 mt-12">
-          <img
-            
-            alt="img"
-            src="./pattern2.png"
-            className="w-[300px]"
-          />
+          <img alt="img" src="./pattern2.png" className="w-[300px]" />
 
           <img
-            
             alt="img"
             src="./Title2.png"
             className="w-72 md:w-[350px] lg:w-[480px]"
@@ -214,32 +180,15 @@ const page = () => {
       <div className="flex flex-col m-10 md:mx-20 space-y-16 my-28">
         <p className="font-semibold text-2xl">COLOR STYLE GUIDE</p>
         <div className="flex flex-row flex-wrap items-center justify-center lg:justify-start ">
+          <img alt="img" src="./Frame 1000004232.png" className="w-[450px]" />
+          <img alt="img" src="./Frame 1000004233.png" className="w-[450px]" />
+          <img alt="img" src="./Frame 1000004234.png" className="w-[450px]" />
           <img
-            
-            alt="img"
-            src="./Frame 1000004232.png"
-            className="w-[450px]"
-          />
-          <img
-            
-            alt="img"
-            src="./Frame 1000004233.png"
-            className="w-[450px]"
-          />
-          <img
-            
-            alt="img"
-            src="./Frame 1000004234.png"
-            className="w-[450px]"
-          />
-          <img
-            
             alt="img"
             src="./Frame 1000004437.png"
             className="w-[700px] object-contain xl:block hidden"
           />
           <img
-            
             alt="img"
             src="/Frame 1000004439.png"
             className="w-[450px] xl:hidden"

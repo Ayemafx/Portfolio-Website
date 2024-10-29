@@ -495,8 +495,8 @@ const Stitch = () => {
               experiences. Interaction features for viewers and streamers are
               limited, reducing engagement. Additionally, the absence of
               effective bookmarking and personalized recommendations complicates
-              content curation. There's an urgent need for a unified gaming app
-              offering intuitive categorization, effective interaction, and
+              content curation. There&apos;s an urgent need for a unified gaming
+              app offering intuitive categorization, effective interaction, and
               personalized recommendations to enhance user engagement.
             </p>
 
@@ -1004,7 +1004,7 @@ const Stitch = () => {
         {/* Text and Email Section */}
         <div className="my-10 md:absolute top-1/3 left-10 lg:left-20 flex flex-col items-center justify-center gap-4 ">
           <h1 className="font-bold xl:text-7xl text-5xl leading-[50px] lg:leading-[75px] w-[250px] xl:w-[400px] text-center text-white">
-            Let's<span className="italic"> Connect!</span>
+            Let&apos;s<span className="italic"> Connect!</span>
           </h1>
 
           <Link

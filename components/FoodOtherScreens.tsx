@@ -10,6 +10,7 @@ const FoodOtherScreens = () => {
         <div className="flex flex-wrap gap-y-10 justify-between">
           {Food2GoOtherScreens.map((item, index) => (
             <div
+              key={item?.id}
               className={`flex flex-wrap space-y-10 w-full ${
                 index > 2 && "md:w-[48%] "
               }`}
@@ -18,9 +19,9 @@ const FoodOtherScreens = () => {
                 {item.title}
               </p>
               <div className="flex flex-wrap justify-center md:justify-start gap-8">
-                {item.screens.map((screen) => (
-                  <div className="max-w-[250px]">
-                    <img  alt="img" src={screen} />
+                {item.screens.map((screen, index) => (
+                  <div key={index} className="max-w-[250px]">
+                    <img alt="img" src={screen} />
                   </div>
                 ))}
               </div>

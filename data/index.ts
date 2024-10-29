@@ -223,6 +223,7 @@ export const Food2GoSolutions = [
 
 export const Food2GoOtherScreens = [
   {
+    id: 1,
     title: "Onboarding Screens",
     screens: [
       "./4.1 Onboarding.png",
@@ -231,6 +232,7 @@ export const Food2GoOtherScreens = [
     ],
   },
   {
+    id: 2,
     title: "Forgot Password Screens",
     screens: [
       "./5.1 forgot pass.png",
@@ -240,6 +242,7 @@ export const Food2GoOtherScreens = [
     ],
   },
   {
+    id: 3,
     title: "Cart and Checkout Screens",
     screens: [
       "./6.1.1 Cart (1).png",
@@ -248,18 +251,22 @@ export const Food2GoOtherScreens = [
     ],
   },
   {
+    id: 4,
     title: "Payment Screens",
     screens: ["./6.1.4 Checkout (1).png", "./6.1.5 Checkout (1).png"],
   },
   {
+    id: 5,
     title: "Restaurant Screens",
     screens: ["./7.3 Shop detail.png", "./7.4 Shop detail.png"],
   },
   {
+    id: 6,
     title: "Location Screens",
     screens: ["./6.0 Location screen.png", "./6.1.8 Checkout (1).png"],
   },
   {
+    id: 7,
     title: "Location Screens",
     screens: ["./7.1 Search screen (1).png", "./6.1.9 Checkout (2).png"],
   },
